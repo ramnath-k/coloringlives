@@ -13,27 +13,27 @@ body {
 	padding: 40px 15px;
 }
 
-.jumbotron{
+.jumbotron.home{
 	background: url("../images/coloringlives-bg.jpg") no-repeat 0 0;
 	background-size: 100%;
 	height: 100%;
 }
 
-.jumbotron .container .objective{
+.jumbotron.home .container .objective{
 	background: rgba(0,0,0,0.5);
 	color: #fff;
 }
 
-.jumbotron .container .objective .header{
+.jumbotron.home .container .objective .header{
 	font-size: 35px;
 }
 
-.jumbotron .container .objective .subtitle{
+.jumbotron.home .container .objective .subtitle{
 	font-size: 20px;
 	line-height: 25px;
 }
 
-.jumbotron .container .objective .btn-link{
+.jumbotron.home .container .objective .btn-link{
 	padding: 0;
 	font-size: 20px;
 	vertical-align: inherit;
@@ -41,3 +41,18 @@ body {
 	color: whiteSmoke;
 }
 
+.jumbotron{
+	margin-bottom: 0;
+}
+
+.jumbotron.who p, .jumbotron.why p, .jumbotron.how p{
+	font-size: 16px;
+}
+.jumbotron.why{
+	background: cadetblue;
+	color: #fff;
+}
+
+.jumbotron.who, .jumbotron.how{
+	background:rgb(238,238,238);
+}
