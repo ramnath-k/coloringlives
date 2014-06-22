@@ -7,6 +7,12 @@ body {
 
 .navbar-default{
 	margin-bottom: 0;
+	min-height: 40px;
+}
+
+.navbar-nav>li>a, .navbar-brand{
+	padding: 10px 15px;
+	line-height: 30px;
 }
 
 .starter-template {
@@ -22,6 +28,7 @@ body {
 .jumbotron.home .container .objective{
 	background: rgba(0,0,0,0.5);
 	color: #fff;
+	margin-top: 10px;
 }
 
 .jumbotron.home .container .objective .header{
@@ -45,12 +52,17 @@ body {
 	margin-bottom: 0;
 }
 
-.jumbotron.who p, .jumbotron.why p, .jumbotron.how p{
+.jumbotron p{
 	font-size: 16px;
 }
-.jumbotron.why{
+.jumbotron.why, #neduvasal{
 	background: cadetblue;
 	color: #fff;
+}
+
+.jumbotron.why a, #neduvasal a{
+	color: #fff;
+	text-decoration: underline;
 }
 
 .jumbotron.who, .jumbotron.how{
