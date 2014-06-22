@@ -68,3 +68,15 @@ body {
 .jumbotron.who, .jumbotron.how{
 	background:rgb(238,238,238);
 }
+
+#manitham .manitham-pic img{
+	width: 400px;
+	float: left;
+	margin: 10px;
+}
+
+#neduvasal .neduvasal-pic img{
+	width: 400px;
+	float: right;
+	margin: 10px;	
+}
