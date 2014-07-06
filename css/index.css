@@ -21,7 +21,7 @@ body {
 
 .jumbotron.home{
 	background: url("../images/coloringlives-bg.jpg") no-repeat 0 0;
-	background-size: 100%;
+	background-size: cover;
 	height: 100%;
 }
 
