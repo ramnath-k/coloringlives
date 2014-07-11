@@ -55,7 +55,7 @@ body {
 .jumbotron p{
 	font-size: 16px;
 }
-.jumbotron.why, #manitham{
+.jumbotron.why, #manitham, #hasthinapuram, #uthiramerur{
 	background: cadetblue;
 	color: #fff;
 }
@@ -69,12 +69,6 @@ body {
 	background:rgb(238,238,238);
 }
 
-#neduvasal .neduvasal-pic img{
-	width: 400px;
-	float: right;
-	margin: 10px;
-}
-
 #contactus{
   margin-top: 10px;
   margin-bottom: 10px;
@@ -86,13 +80,17 @@ body {
   text-decoration: underline;
 }
 
-#kumaran img, #manitham img{
+#kumaran img, #manitham img, #neduvasal img, #nallambakkam img, #hasthinapuram img, #uthiramerur img{
   height: 250px;
   width: auto;
   display: inline-block;
 }
 
-#kumaran .content, #manitham .content{
+#nallambakkam img, #hasthinapuram img, #uthiramerur img{
+	height: 225px;
+}
+
+#kumaran .content, #manitham .content, #neduvasal .content, #nallambakkam .content, #hasthinapuram .content, #uthiramerur .content{
   margin-top: 20px;
 }
 
