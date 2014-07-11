@@ -55,12 +55,12 @@ body {
 .jumbotron p{
 	font-size: 16px;
 }
-.jumbotron.why, #neduvasal{
+.jumbotron.why, #manitham{
 	background: cadetblue;
 	color: #fff;
 }
 
-.jumbotron.why a, #neduvasal a{
+.jumbotron.why a, #manitham a{
 	color: #fff;
 	text-decoration: underline;
 }
@@ -69,14 +69,36 @@ body {
 	background:rgb(238,238,238);
 }
 
-#manitham .manitham-pic img{
-	width: 400px;
-	float: left;
-	margin: 10px;
-}
-
 #neduvasal .neduvasal-pic img{
 	width: 400px;
 	float: right;
-	margin: 10px;	
+	margin: 10px;
 }
+
+#contactus{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#kumaran .btn-link{
+  padding-left: 0;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+#kumaran img, #manitham img{
+  height: 250px;
+  width: auto;
+  display: inline-block;
+}
+
+#kumaran .content, #manitham .content{
+  margin-top: 20px;
+}
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
