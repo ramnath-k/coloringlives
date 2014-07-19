@@ -74,6 +74,19 @@ body {
   margin-bottom: 10px;
 }
 
+#contactus .core-team{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#contactus .core-team img{
+	height: 150px;
+}
+
+#contactus .core-team a{
+	display: block;
+}
+
 #kumaran .btn-link{
   padding-left: 0;
   font-size: 15px;
