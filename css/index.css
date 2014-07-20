@@ -83,8 +83,17 @@ body {
 	height: 150px;
 }
 
-#contactus .core-team a{
+#contactus .core-team label{
 	display: block;
+	font-size: 14px;
+}
+
+#contactus .core-team a{
+	font-size: 14px;	
+}
+
+#contactus .core-team span{
+	font-size:12px; 
 }
 
 #kumaran .btn-link{
