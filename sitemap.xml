@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://coloringlives.org/</loc>
+  <lastmod>2014-12-13T17:25:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://coloringlives.org/donate.html</loc>
+  <lastmod>2014-12-13T17:25:48+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://coloringlives.org/projects.html</loc>
+  <lastmod>2014-12-13T17:25:53+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://coloringlives.org/team.html</loc>
+  <lastmod>2014-12-13T17:25:57+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://coloringlives.org/contactus.html</loc>
+  <lastmod>2014-12-13T17:25:46+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://coloringlives.org/images/kumaran/clft.pdf</loc>
+  <lastmod>2014-07-19T19:21:17+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
