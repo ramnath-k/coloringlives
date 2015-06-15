@@ -98,7 +98,22 @@
           <h2>Account details</h2>
         </div>
         <div class="row">
-          <label class="help-block">Transfer your donations to the below account.</label>
+          <label class="help-block">Transfer your donations to the below account or click
+            <form class="razor-donate" action="/donate" method="POST">
+              <script
+                  src="https://checkout.razorpay.com/v1/checkout.js"
+                  data-key="rzp_test_0pWR3ouEbXpEaM"
+                  data-amount="500"
+                  data-name="Coloring Lives Foundation"
+                  data-description="Monthly donation"
+                  data-image="/images/coloringlives-bg.jpg"
+                  data-prefill.name="Vasanth Gopal"
+                  data-prefill.email="vasanthgonline@gmail.com"
+              ></script>
+              <input type="submit" value="Donate" class="btn btn-success razorpay-payment-button">
+              <input type="hidden" value="Hidden Element" name="hidden">
+            </form> to contribute online.
+          </label>
           <h4>India</h4>
           <ul>
             <li><b class="col-md-2">Name: </b><span>COLORING-LIVES FOUNDATION</span></li>
